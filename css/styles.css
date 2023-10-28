@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #050801;
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+}
+
+.bgVideo {
+    object-fit: cover;
+    width: 100vw; height: 100vh; height: 100svh;
+    position: fixed;
+    filter: blur(15px) brightness(70%);
+    pointer-events: none;
+    z-index:-1;
+}
+
+.whiteButton{
+    overflow: hidden; padding: 15px 15px; margin: 10px; transition: .1s;
+
+    color: #ffffff; background-color: #ffffff27; text-transform: uppercase; text-decoration: none; font-size: 20px; letter-spacing: 2px; font-weight: lighter;
+
+    border-color: #ffffff7e; border-width: 1px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
+}
+
+.whiteButton:hover{
+    background: #ffffff;
+    color: #050801;
+    box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.63);
+    font-weight: 900;
+    border-width: 15px;
+}
+
+.search-bar{
+    position: static; width: 250px; overflow: hidden; padding: 10px 10px; margin: 10px; transition: .1s;
+
+    color: #ffffff; font-size: 13px; background-color: #ffffff27; font-family: 'Quicksand', sans-serif; text-align: center;
+
+    border-color: #ffffff7e; border-width: 1px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
+}
+
+.search-bar:hover{
+    color: #050801;
+    background-color: #ffffff6b;
+    box-shadow: 0 0 30px 3px rgba(255, 255, 255, 0.63);
+    font-size: 15px;
+    border-width: 2px;
+}
+
+::placeholder{
+    color: white;
+}
