@@ -24,7 +24,7 @@ body{
 
     color: #ffffff; background-color: #ffffff27; text-transform: uppercase; text-decoration: none; font-size: 20px; letter-spacing: 2px; font-weight: lighter;
 
-    border-color: #ffffff7e; border-width: 1px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
+    border-color: #ffffff7e; border-width: 2px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
 }
 
 .whiteButton:hover{
@@ -40,7 +40,7 @@ body{
 
     color: #ffffff; font-size: 13px; background-color: #ffffff27; font-family: 'Quicksand', sans-serif; text-align: center;
 
-    border-color: #ffffff7e; border-width: 1px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
+    border-color: #ffffff7e; border-width: 2px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
 }
 
 .search-bar:hover{
@@ -48,7 +48,7 @@ body{
     background-color: #ffffff6b;
     box-shadow: 0 0 30px 3px rgba(255, 255, 255, 0.63);
     font-size: 15px;
-    border-width: 2px;
+    border-width: 3px;
 }
 
 ::placeholder{
