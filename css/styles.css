@@ -51,6 +51,7 @@ body{
     box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.63);
     font-weight: bolder;
     border-width: 1px;
+    border-color: #9EA8DF;
     font-size: 25px;
 }
 
@@ -68,6 +69,7 @@ body{
     box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.63);
     font-weight: bolder;
     border-width: 1px;
+    border-color: #E9B02B;
     font-size: 25px;
 }
 
