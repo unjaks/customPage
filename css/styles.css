@@ -48,7 +48,7 @@ body{
 .vkButton:hover{
     background: #4083ff;
     color: #050801;
-    box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.63);
+    box-shadow: 0 0 40px 5px #9EA8DFa1;
     font-weight: bolder;
     border-width: 1px;
     border-color: #9EA8DF;
@@ -66,7 +66,7 @@ body{
 .okButton:hover{
     background: #ffc340;
     color: #050801;
-    box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.63);
+    box-shadow: 0 0 40px 5px #E9B02Ba1;
     font-weight: bolder;
     border-width: 1px;
     border-color: #E9B02B;
