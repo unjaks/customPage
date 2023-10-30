@@ -48,7 +48,7 @@ body{
 .vkButton:hover{
     background: #4083ff;
     color: #050801;
-    box-shadow: #4083ff66 0px 2.5px, #4083ff4d 0px 5px, #4083ff33 0px 7.5px, #4083ff1a 0px 10px, #4083ff0d 0px 12.5px;
+    box-shadow: 0px 9px 30px #4083ff4d;
     font-weight: bolder;
     border-width: 1px;
     border-color: #4083ff;
@@ -66,7 +66,7 @@ body{
 .okButton:hover{
     background: #ffc340;
     color: #050801;
-    box-shadow: #ffc34066 0px 2.5px, #ffc3404d 0px 5px, #ffc34033 0px 7.5px, #ffc3401a 0px 10px, #ffc3400d 0px 12.5px;
+    box-shadow: 0px 9px 30px #ffc3404d;
     font-weight: bolder;
     border-width: 1px;
     border-color: #ffc340;
@@ -87,7 +87,7 @@ body{
 .search-bar:hover{
     color: #050801;
     background-color: #ffffff6b;
-    box-shadow: #ffffff66 0px 2.5px, #ffffff4d 0px 5px, #ffffff33 0px 7.5px, #ffffff1a 0px 10px, #ffffff0d 0px 12.5px;
+    box-shadow: 0px 9px 30px #ffffff4d;
     font-size: 15px;
     border-width: 2px;
 }
