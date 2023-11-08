@@ -1,32 +1,81 @@
-<!DOCTYPE html>
+@import url('https://fonts.googleapis.com/css?family=JetBrains Mono');
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    gap: .5rem;
+    backdrop-filter: blur(5px);
+    border-radius: 100px;
+    border-width: 1px;
+    border-style: solid;
+    top: 10px;
+    border-color: #ffffff5e;
+    box-shadow: 0px 9px 30px #00000062;
+    background-color: #ffffff00;
+    font-family: 'JetBrains Mono';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background-color: #000000;
+    font-family: 'JetBrains Mono';
+    overflow: hidden;
+}
 
-<html>
+.Button{
+    overflow: hidden; padding: 15px 15px;
+    transition: .1s;
 
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    color: #ffffff; background-color: #ffffff10; text-transform: uppercase; text-decoration: none; font-size: 20px; letter-spacing: 2px; font-weight: lighter;
 
-  <head><link rel="icon" type="image/x-icon" href=""></head>
+    border-color: #ffffff5e; border-width: 2px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
+}
 
-  <!--BUTTONS-->
-  <header>
-    <a class="Button" href="https://vk.com">VK</a>
+.Button:hover{
+    background: #ffffff;
+    box-shadow: 0px 9px 30px #ffffff4d;
+    font-weight: bolder;
+    color: #000000;
+}
 
-    <form target=”_blank” spellcheck="true" action="https://www.google.com/search" method="get">
-      <input class="search-bar" onfocus="this.value=''" type="search" placeholder="Search Google">
-    </form>
-  
-    <a class="Button" href="https://ok.ru">OK</a>
-  </header>
+.bgVideo {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
 
-  <body>
+.search-bar{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    transition: .1s;
+    width: 250px; overflow: hidden; padding: 10px 10px; margin: 10px;
 
-  <!--ВИДЕО-->
-  <video class="bgVideo" playsinline autoplay muted loop id="bgvid">
-    <source src="media/video5.mp4" type="video/mp4">
-  </video>
+    color: #ffffff; font-size: 13px; background-color: #ffffff10; font-family: 'JetBrains Mono'; text-align: center; letter-spacing: 5px;
 
-  </body>
+    border-color: #ffffff5e; border-width: 2px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
+}
 
-</html>
+.search-bar:hover{
+    color: #ffffff;
+    background-color: #ffffff3b;
+    box-shadow: 0px 9px 30px #ffffff4d;
+}
+
+.search-bar:focus{
+    letter-spacing: 0;
+}
+
+::placeholder{
+    color: #ffffff;
+    font-size: 16px;
+}
