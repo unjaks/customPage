@@ -1,50 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+<!DOCTYPE html>
 
-html {
-    overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
-}
+<html>
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    position: sticky;
-    height: 100vh;
-    background-color: #050801;
-    font-family: 'Quicksand', sans-serif;
-    overflow: hidden;
-}
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-.bgVideo {
-    object-fit: cover;
-    width: 100vw; height: 100vh; height: 100svh;
-    position: fixed;
-    filter: blur(8px) brightness(70%);
-    pointer-events: none;
-    z-index:-1;
-}
+  <head><link rel="icon" type="image/x-icon" href=""></head>
 
-.search-bar{
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    width: 250px; overflow: hidden; padding: 10px 10px; margin: 10px; transition: .1s;
+  <!--BUTTONS-->
+  <header>
+    <a class="Button" href="https://vk.com">VK</a>
 
-    color: #ffffff; font-size: 13px; background-color: #ffffff10; font-family: 'Quicksand', sans-serif; text-align: center;
+    <form target=”_blank” spellcheck="true" action="https://www.google.com/search" method="get">
+      <input class="search-bar" onfocus="this.value=''" type="search" placeholder="Search Google">
+    </form>
+  
+    <a class="Button" href="https://ok.ru">OK</a>
+  </header>
 
-    border-color: #ffffff7e; border-width: 1px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
-}
+  <body>
 
-.search-bar:hover{
-    color: #ffffff;
-    background-color: #ffffff3b;
-    box-shadow: 0px 9px 30px #ffffff4d;
-    font-size: 15px;
-    border-width: 2px;
-}
+  <!--ВИДЕО-->
+  <video class="bgVideo" playsinline autoplay muted loop id="bgvid">
+    <source src="media/video5.mp4" type="video/mp4">
+  </video>
 
-::placeholder{
-    color: white;
-}
+  </body>
+
+</html>
