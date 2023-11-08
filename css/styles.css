@@ -3,14 +3,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .5rem;
-    gap: .5rem;
+    margin: 15px;
+    padding: 5px;
     backdrop-filter: blur(5px);
     border-radius: 100px;
     border-width: 1px;
     border-style: solid;
-    top: 10px;
-    border-color: #ffffff5e;
+    border-color: #ffffff00;
     box-shadow: 0px 9px 30px #00000062;
     background-color: #ffffff00;
     font-family: 'JetBrains Mono';
@@ -60,9 +59,9 @@ body{
     transition: .1s;
     width: 250px; overflow: hidden; padding: 15px 15px;
 
-    color: #ffffff; font-size: 13px; background-color: #ffffff10; font-family: 'JetBrains Mono'; text-align: center; letter-spacing: 5px;
+    color: #ffffff; font-size: 20px; background-color: #ffffff10; font-family: 'JetBrains Mono'; text-align: center; letter-spacing: 5px;
 
-    border-color: #ffffff5e; border-width: 2px; border-style: solid; border-radius: 100px; /*border-left: 0; border-right: 0;*/
+    border-color: #ffffff5e; border-width: 2px; border-style: solid; /*border-radius: 100px; border-left: 0; border-right: 0;*/
 }
 
 .search-bar:hover{
